@@ -1,0 +1,172 @@
+/**
+ * Name: Joanna
+ * Date Created: 04/02/2015
+ */
+
+
+@font-face { font-family: "pix"; src: url('https://dl.dropboxusercontent.com/s/68bdyrv4fsayhg8/04B_03__.TTF'); }
+@font-face { font-family: "bit"; src: url('https://dl.dropboxusercontent.com/s/sq28ejp56rarabs/BitxMap%20Font%20tfb.ttf'); }
+
+body, #layer  {
+  /*background: url("http://static.tumblr.com/s2ymoja/AIUm38u2u/1200.jpg");*/
+  	background-position: center;
+  	background-color: #FFD8F3;
+	cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), progress !important;
+	}
+
+#layer {
+	position:absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	}
+
+#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -250px;
+	margin-left: -300px;
+	height: 500px;
+	width: 600px;
+  	background: url("https://image.prntscr.com/image/3UiDYyL9QO_lPs12R-ICZQ.png") no-repeat;
+  	background-position: center;
+  	background-size: 50%;
+	}
+
+#box {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	margin-top: -200px;
+  	margin-left: -275px;
+  	height: 400px;
+  	width: 550px;
+    	border: 5px solid #333;
+  	}
+
+#box2 {
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	margin-top: -225px;
+  	margin-left: -300px;
+  	height: 400px;
+  	width: 550px;
+  	border: 1px dashed #444;
+}
+
+#topbar {
+  	position: absolute;
+  	top: 10px;
+  	left: 25px;
+  	height: 180px;
+  	width: 490px;
+  	border-top: 1px solid #DDD;
+  	border-bottom: 1px solid #DDD;
+
+}
+
+#ava {
+  	position: absolute;
+  	margin-top: 2px;
+  	margin-left: 2px;
+  	width: 100px;
+  	height: 100px;
+  	background: url("http://data.whicdn.com/images/219800021/large.jpg") no-repeat;
+  	background-size: 100%;
+ 	background-position: center;
+  	padding: 5px;
+  	float: left;
+  	border: 1px solid #DDD;
+}
+
+#ava2 {
+  	position: absolute;
+  	margin-top: 20px;
+  	margin-left: 20px;
+  	width: 115px;
+  	height: 115px;
+  	background-color: white;
+	background-size: 100%;
+	background-position: center;
+	padding: 5px;
+	border: 1px solid #CCC;
+}
+
+#description {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	width: 300px;
+	height: 150px;
+	line-height: 1.6;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+
+#description > p {
+	margin-top: 80px;
+	font: 9px bit;
+	color: #888;
+	text-transform: uppercase;
+}
+
+#title{
+	position: absolute;
+	margin-left: -30px;
+	margin-top: -60px;
+	width: 350px;
+	font-family: 'Acme', sans-serif;
+	font-size: 30px;
+	color: #999999;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+#subtitle {
+	position: absolute;
+ 	margin-left: 70px;
+	margin-top: -40px;
+	font: italic 10px Libre Baskerville;
+	letter-spacing: 1px;
+	color: #666;
+	text-transform: lowercase;
+}
+
+table {
+	position: absolute;
+	margin-top: -10px;
+	font: 9px bit;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #999999;
+	overflow: auto;
+	word-wrap: break-word;
+	}
+
+tr.n {
+	height: 25px;
+	}
+
+td.e {
+	width: 150px;
+	overflow: auto;
+	word-wrap: break-word;
+	}
+
+b {
+	font: 9px bit, Arial;
+	background-color: #BBBBBB;
+	text-transform: uppercase;
+	padding: 3px;
+	letter-spacing: 1px;
+	margin-top: 1px;
+	text-decoration: none;
+	color: #EEEEEE;
+	text-align: center;
+}
+
